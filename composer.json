@@ -1,6 +1,6 @@
 {
     "name": "rahpt/admin",
-    "description": "CI4 Modular Admin sample",
+    "description": "Codeigniter4 Modular Admin page sample",
     "type": "library",
     "keywords": [
         "codeigniter",
