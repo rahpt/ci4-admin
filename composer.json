@@ -1,27 +1,26 @@
 {
-    "name": "rahpt/cli",
-    "description": "CI4 Modular Command EX",
+    "name": "rahpt/admin",
+    "description": "CI4 Modular Admin sample",
     "type": "library",
     "keywords": [
         "codeigniter",
         "codeigniter4",
-        "cli",
-        "create"
+        "bootstrap5"
     ],
-    "license": "Unlicense",
     "require": {
-     "php": "^7.4"
+        "php": "^7.4"
     },
-"authors": [
-      {
-          "name": "Jose Proenca",
-          "email": "jose.proenca@rah.pt"
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Jose Proenca",
+            "email": "jose.proenca@rah.pt"
         }
     ],
-  "minimum-stability": "dev",
     "autoload": {
-		"psr-4": {
-			"rahpt\\": "src/"
-		}
-	}
+        "psr-4": {
+            "Admin\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
