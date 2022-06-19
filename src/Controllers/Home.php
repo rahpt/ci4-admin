@@ -13,7 +13,13 @@ class Home extends BaseController
     {
         $data['pageTitle'] = 'Squadfree Bootstrap Template - Index';
 
-        echo view('Landing\Views\content', $data);
+        echo view('\Admin\Views\dashboard', $data);
+    }
+    public function profile()
+    {
+        $data['pageTitle'] = 'Profile';
+
+        echo view('\Admin\Views\profile', $data);
     }
 
 }
